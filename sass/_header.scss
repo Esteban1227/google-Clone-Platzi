@@ -1,44 +1,40 @@
 .header{
     width: 100%;
-    height: 6em;
+    height: 6rem;
     &__container-nav{
         display: flex;
         justify-content: flex-end;
-        height: 6.4em;
+        height: 6.4rem;
     }
     &__container-list{
-        width: 25em;
-        padding: 2em;
+        width: 25rem;
+        padding: 1rem;
+        padding-top: 0.8rem ;
+        padding-right: 1.5rem;
         height: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-            a{
-                /* margin-right: 1.5em; */
-                color: $colorFontBlack;
-                font-size: $fontSizeS;
-                padding-left:10px ;
-            }
             &--right{
                 display: flex;
             }
             &--left{
                 display: flex;
+                a{
+                    color: $colorFontBlack;
+                    font-size: $fontSizeS;
+                    padding-left:1.5rem ;
+                }
             }
             &--icon{
-                background-image: url("https://static.thenounproject.com/png/756729-200.png");
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: contain;
-                width: 2.5em;
-                height:2.5em;
+                width:  2.4rem;
                 display: inline-block;
-                padding-right: 4.5em;
+                margin-right: 2rem;
+                margin-top: 4px;
+                opacity: 0.6;
             }
             &--img img{
                 border-radius: 50%;
-                /* margin-left: 1em;
-                padding: 1.5em; */
             }
     }
 }
