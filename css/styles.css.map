@@ -4,7 +4,8 @@
     "sources": [
         "../sass/styles.scss",
         "../sass/_variables.scss",
-        "../sass/_reset.scss"
+        "../sass/_reset.scss",
+        "../sass/_header.scss"
     ],
     "names": [],
     "file": "styles.css"
