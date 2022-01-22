@@ -30,9 +30,10 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
-                width: 3em;
-                height:3em;
-                padding-right: 6.5em;
+                width: 2.5em;
+                height:2.5em;
+                display: inline-block;
+                padding-right: 4.5em;
             }
             &--img img{
                 border-radius: 50%;
