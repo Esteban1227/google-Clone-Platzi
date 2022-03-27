@@ -225,9 +225,16 @@ ul {
   color: #1a0dab;
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+}
+
 .footerDown {
   width: 100%;
-  height: 4.6rem;
+  height: 5rem;
   position: absolute;
   bottom: 0;
   display: -webkit-box;
@@ -241,6 +248,7 @@ ul {
           justify-content: space-between;
   font-size: 1.4rem;
   background-color: #f2f2f2;
+  border-bottom: solid 1px #dadce0;
 }
 
 .footerDown__left {
@@ -256,7 +264,7 @@ ul {
 }
 
 .footerDown__text {
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   color: #70757a;
 }
 
@@ -274,7 +282,7 @@ ul {
 
 .footerUp {
   width: 100%;
-  height: 4.6rem;
+  height: 5rem;
   position: absolute;
   bottom: 46px;
   display: -webkit-box;
@@ -288,7 +296,6 @@ ul {
           justify-content: space-between;
   font-size: 1.4rem;
   background-color: #f2f2f2;
-  border-bottom: solid 1px #dadce0;
 }
 
 .footerUp__left {
@@ -308,5 +315,26 @@ ul {
 
 .footerUp__text--padding-right {
   padding-right: 4rem;
+}
+
+@media screen and (max-width: 900px) {
+  .footerDown {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footerDown__text--padding-left {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .container__search {
+    width: 90%;
+  }
+  .container__searchInput {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

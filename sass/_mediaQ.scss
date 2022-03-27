@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+        .footerDown{
+            flex-direction: column;
+            &__text--padding-left{
+                padding-left: 0;
+            }
+        }
+}
+@media screen and (max-width: 610px) {
+    .container{
+        &__search{
+            width: 90%;
+        }
+        &__searchInput{
+            width: 100%;
+        }
+    }
+}
